@@ -21,7 +21,7 @@ def hash_password(password: str) -> str:
 #  LOGIN / REGISTER / FORGOT PASSWORD SCREENS
 # ====================================================================
 
-def show_login_screen():
+show_login_screen():
     st.title("🔐 Quikko Login")
     tab_login, tab_register = st.tabs(["🔑 Login", "🧍 Register"])
 
