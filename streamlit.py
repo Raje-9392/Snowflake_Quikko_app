@@ -9,6 +9,7 @@ import uuid
 import hashlib
 from snowflake.snowpark.context import get_active_session
 
+session = get_active_session()
 
 st.set_page_config(page_title="Quikko App", layout="wide")
 
