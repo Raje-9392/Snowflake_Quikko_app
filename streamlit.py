@@ -1,4 +1,4 @@
-# ============================================================
+ # ============================================================
 # QUIKKO - FULL APP (Login + Register + Forgot Password + Orders)
 # (Order History Removed from UI)
 # ============================================================
@@ -21,7 +21,7 @@ def hash_password(password: str) -> str:
 #  LOGIN / REGISTER / FORGOT PASSWORD SCREENS
 # ====================================================================
 
-show_login_screen():
+def show_login_screen():
     st.title("🔐 Quikko Login")
     tab_login, tab_register = st.tabs(["🔑 Login", "🧍 Register"])
 
