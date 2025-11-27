@@ -7,9 +7,8 @@ import streamlit as st
 import pandas as pd
 import uuid
 import hashlib
-from snowflake.snowpark.context import get_active_session
-
-session = get_active_session()
+cnx = st.connection("snowflake")
+session = cnx.session()
 
 st.set_page_config(page_title="Quikko App", layout="wide")
 
